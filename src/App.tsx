@@ -265,7 +265,7 @@ export default function App() {
 
             <div className="mt-12 flex flex-wrap gap-4">
               {["React", "JavaScript", "Laravel",  "PHP"].map(
-                (skill, i) => (
+                (skill) => (
                   <motion.div
                     key={skill}
                     drag
