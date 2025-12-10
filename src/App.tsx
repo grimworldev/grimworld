@@ -5,7 +5,7 @@ import { SplitText } from "./components/SplitText";
 import { Magnetic } from "./components/Magnetic";
 import { BrutalistButton } from "./components/BrutalistButton";
 import { ProjectCard } from "./components/ProjectCard";
-import { ArrowDown, Github, Twitter, Mail } from "lucide-react";
+import { ArrowDown, Github, Instagram, Mail } from "lucide-react";
 
 export default function App() {
   const containerRef = useRef(null);
@@ -252,14 +252,10 @@ export default function App() {
             </h2>
             <div className="space-y-6 font-mono text-lg text-neutral-400">
               <p>
-                I am a creative developer obsessed with the intersection of
-                design and technology. I believe in brutal honesty in
-                design—stripping away the unnecessary to reveal the raw
-                structure underneath.
+                Hi, I’m FJ Buenaflor — a full-stack web developer who enjoys building clean, efficient, and user-friendly applications.
               </p>
               <p>
-                My work is characterized by bold typography, harsh grids, and
-                unexpected micro-interactions that bring static layouts to life.
+                I work across both frontend and backend, and I love turning ideas into functional digital solutions.
               </p>
             </div>
 
@@ -358,7 +354,7 @@ export default function App() {
               <p>ALL RIGHTS RESERVED</p>
             </div>
             <div className="flex gap-6">
-              {[Github, Twitter, Mail].map((Icon, i) => (
+              {[Github, Instagram, Mail].map((Icon, i) => (
                 <Magnetic key={i}>
                   <a
                     href="#"
